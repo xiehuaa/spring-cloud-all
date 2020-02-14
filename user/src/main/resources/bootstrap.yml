@@ -1,0 +1,14 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: user-server
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 3217a06c-8490-4d61-909f-ce9ac78f8711
+        file-extension: yml
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 3217a06c-8490-4d61-909f-ce9ac78f8711
